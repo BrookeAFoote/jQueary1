@@ -1,21 +1,29 @@
 
 $(document).ready(function() {
-    var element = $(".available");
 //click on table
-    element.on("click", function(){
+    $(".available").on("click", function(){
         //--reveals form
-        $(".hidden").toggleClass("show");
+        $(this).css("background", "#ADAAAA");
+        $(".hidden").slideToggle("show");
+        //animations
      })//onclick
 
 // click on save button
      $("button").on("click", function(){
+         event.preventDefault();
         //--hides form
-        $(".hidden").toggleClass("show");
+        $(".hidden").slideToggle("show");
+        //animations
         //--changes table color
-        // $(".table").css("background","#adaaaa");
         $(".table").addClass(".reserved");
         $(".table").removeClass(".available");
      })
+//store input
+var nameInput = $("#name").val
+var phoneInput = $("#phone").val
+var guestsInput = $("#guests").val
+
+//dislay input on hover
 
 
 
