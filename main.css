@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #E1D7D4;
+}
+
+h1, #title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: #E34E45;
+    font-style: initial;
+}
+#header {
+    margin: 0 auto;
+    text-align: center;
+}
+.container {
+    background-color: white;
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
+
+ .available {
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: solid 1px #ccc;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 10px;
+
+}
+.available:hover{
+    cursor: alias;
+}
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+form {
+    position: absolute;
+    top: 80px;
+    left: 32%;
+    width: 450px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.3);
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+button{
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.3);
+    background-color: #008000;
+    text-align: center;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    padding: 5px 0px 5px 0px;
+    color: white;
+}
+.reserved {
+    background-color: #adaaaa;
+    cursor: not-allowed;
+}
