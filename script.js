@@ -14,9 +14,9 @@ var tableEl;
      })//onclick
 
      function addHoverData() {
-        var name = $("#name").val();
+        var nameInput = $("#name").val();
         var partySize = $("#guests").val();
-        tableEl.append('<div class=".hoverData"><div>Guest Name:' + name + '</div><div>Size of Party:' + partySize + '</div></div>'
+        tableEl.append('<div class=".hoverData"><div>Guest Name:' + nameInput + '</div><div>Size of Party:' + partySize + '</div></div>'
         );
      }
 
