@@ -78,6 +78,23 @@ button{
     background-color: #adaaaa;
     cursor: not-allowed;
 }
-.reserved:hover .hidden{
+
+hoverData {
+    background-color: #adaaaa;
+    font-family: 'Roboto Mono', monospace;
+    width: 100px;
+    border: 1px solid black;
+}
+.reserved:hover hoverData{
     display: block;
+}
+
+@media screen and (max-width: 780px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+
+    
 }

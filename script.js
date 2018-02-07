@@ -16,7 +16,7 @@ var tableEl;
      function addHoverData() {
         var name = $("#name").val();
         var partySize = $("#guests").val();
-        tableEl.append('<div class="hidden"><div>Guest Name:' + name + '</div><div>Size of Party:' + partySize + '</div></div>'
+        tableEl.append('<div class=".hoverData"><div>Guest Name:' + name + '</div><div>Size of Party:' + partySize + '</div></div>'
         );
      }
 
