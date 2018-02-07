@@ -78,3 +78,6 @@ button{
     background-color: #adaaaa;
     cursor: not-allowed;
 }
+.reserved:hover .hidden{
+    display: block;
+}
