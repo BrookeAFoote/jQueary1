@@ -34,7 +34,10 @@ var tableEl;
 
 
 //mouse over
-
+$(".table").on("click", function() {
+   if( $(this).hasClass('reserved')) {
+        $(this).find(".hoverData")}
+});
 //- show data
 //mouse out
 //- hide data
